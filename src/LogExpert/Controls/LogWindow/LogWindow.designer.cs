@@ -177,7 +177,7 @@ namespace LogExpert
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
             this.tableLayoutPanel1.Controls.Add(this.columnFinderPanel, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.dataGridView, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.timeSpreadingControl1, 1, 1);
@@ -292,93 +292,93 @@ namespace LogExpert
             this.markCurrentFilterRangeToolStripMenuItem,
             this.pluginSeparator});
             this.dataGridContextMenuStrip.Name = "dataGridContextMenuStrip";
-            this.dataGridContextMenuStrip.Size = new System.Drawing.Size(310, 270);
+            this.dataGridContextMenuStrip.Size = new System.Drawing.Size(252, 292);
             this.dataGridContextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.dataGridContextMenuStrip_Opening);
             // 
             // copyToolStripMenuItem
             // 
             this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
             this.copyToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.copyToolStripMenuItem.Text = "Copy to clipboard";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.copyToolStripMenuItem.Text = "复制到剪切板";
             this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
             // copyToTabToolStripMenuItem
             // 
             this.copyToTabToolStripMenuItem.Name = "copyToTabToolStripMenuItem";
             this.copyToTabToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.copyToTabToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.copyToTabToolStripMenuItem.Text = "Copy to new tab";
+            this.copyToTabToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.copyToTabToolStripMenuItem.Text = "复制到新标签页";
             this.copyToTabToolStripMenuItem.ToolTipText = "Copy marked lines into a new tab window";
             this.copyToTabToolStripMenuItem.Click += new System.EventHandler(this.copyToTabToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(306, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(248, 6);
             // 
             // scrollAllTabsToTimestampToolStripMenuItem
             // 
             this.scrollAllTabsToTimestampToolStripMenuItem.Name = "scrollAllTabsToTimestampToolStripMenuItem";
-            this.scrollAllTabsToTimestampToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.scrollAllTabsToTimestampToolStripMenuItem.Text = "Scroll all tabs to current timestamp";
+            this.scrollAllTabsToTimestampToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.scrollAllTabsToTimestampToolStripMenuItem.Text = "滚动所有标签页到此时间戳";
             this.scrollAllTabsToTimestampToolStripMenuItem.ToolTipText = "Scolls all open tabs to the selected timestamp, if possible";
             this.scrollAllTabsToTimestampToolStripMenuItem.Click += new System.EventHandler(this.scrollAllTabsToTimestampToolStripMenuItem_Click);
             // 
             // syncTimestampsToToolStripMenuItem
             // 
             this.syncTimestampsToToolStripMenuItem.Name = "syncTimestampsToToolStripMenuItem";
-            this.syncTimestampsToToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.syncTimestampsToToolStripMenuItem.Text = "Time synced files";
+            this.syncTimestampsToToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.syncTimestampsToToolStripMenuItem.Text = "同步所有文件的时间";
             // 
             // freeThisWindowFromTimeSyncToolStripMenuItem
             // 
             this.freeThisWindowFromTimeSyncToolStripMenuItem.Name = "freeThisWindowFromTimeSyncToolStripMenuItem";
-            this.freeThisWindowFromTimeSyncToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.freeThisWindowFromTimeSyncToolStripMenuItem.Text = "Free this window from time sync";
+            this.freeThisWindowFromTimeSyncToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.freeThisWindowFromTimeSyncToolStripMenuItem.Text = "从时间同步中释放该窗口";
             this.freeThisWindowFromTimeSyncToolStripMenuItem.Click += new System.EventHandler(this.freeThisWindowFromTimeSyncToolStripMenuItem_Click);
             // 
             // locateLineInOriginalFileToolStripMenuItem
             // 
             this.locateLineInOriginalFileToolStripMenuItem.Name = "locateLineInOriginalFileToolStripMenuItem";
             this.locateLineInOriginalFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.locateLineInOriginalFileToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.locateLineInOriginalFileToolStripMenuItem.Text = "Locate filtered line in original file";
+            this.locateLineInOriginalFileToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.locateLineInOriginalFileToolStripMenuItem.Text = "在原始文件定位该过滤行";
             this.locateLineInOriginalFileToolStripMenuItem.Click += new System.EventHandler(this.locateLineInOriginalFileToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(306, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(248, 6);
             // 
             // toggleBoomarkToolStripMenuItem
             // 
             this.toggleBoomarkToolStripMenuItem.Name = "toggleBoomarkToolStripMenuItem";
             this.toggleBoomarkToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F2)));
-            this.toggleBoomarkToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.toggleBoomarkToolStripMenuItem.Text = "Toggle Boomark";
+            this.toggleBoomarkToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.toggleBoomarkToolStripMenuItem.Text = "标记书签";
             this.toggleBoomarkToolStripMenuItem.Click += new System.EventHandler(this.toggleBoomarkToolStripMenuItem_Click);
             // 
             // bookmarkCommentToolStripMenuItem
             // 
             this.bookmarkCommentToolStripMenuItem.Name = "bookmarkCommentToolStripMenuItem";
             this.bookmarkCommentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F2)));
-            this.bookmarkCommentToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.bookmarkCommentToolStripMenuItem.Text = "Bookmark comment...";
+            this.bookmarkCommentToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.bookmarkCommentToolStripMenuItem.Text = "书签备注...";
             this.bookmarkCommentToolStripMenuItem.ToolTipText = "Edit the comment for a bookmark";
             this.bookmarkCommentToolStripMenuItem.Click += new System.EventHandler(this.bookmarkCommentToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(306, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(248, 6);
             // 
             // markEditModeToolStripMenuItem
             // 
             this.markEditModeToolStripMenuItem.Name = "markEditModeToolStripMenuItem";
             this.markEditModeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.markEditModeToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.markEditModeToolStripMenuItem.Text = "Mark/Edit-Mode";
+            this.markEditModeToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.markEditModeToolStripMenuItem.Text = "选择/编辑模式";
             this.markEditModeToolStripMenuItem.Click += new System.EventHandler(this.markEditModeToolStripMenuItem_Click);
             // 
             // tempHighlightsToolStripMenuItem
@@ -387,37 +387,37 @@ namespace LogExpert
             this.removeAllToolStripMenuItem,
             this.makePermanentToolStripMenuItem});
             this.tempHighlightsToolStripMenuItem.Name = "tempHighlightsToolStripMenuItem";
-            this.tempHighlightsToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.tempHighlightsToolStripMenuItem.Text = "Temp Highlights";
+            this.tempHighlightsToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.tempHighlightsToolStripMenuItem.Text = "临时高亮";
             // 
             // removeAllToolStripMenuItem
             // 
             this.removeAllToolStripMenuItem.Name = "removeAllToolStripMenuItem";
             this.removeAllToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.H)));
-            this.removeAllToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.removeAllToolStripMenuItem.Text = "Remove all";
+            this.removeAllToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.removeAllToolStripMenuItem.Text = "删除所有";
             this.removeAllToolStripMenuItem.Click += new System.EventHandler(this.removeAllToolStripMenuItem_Click);
             // 
             // makePermanentToolStripMenuItem
             // 
             this.makePermanentToolStripMenuItem.Name = "makePermanentToolStripMenuItem";
-            this.makePermanentToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.makePermanentToolStripMenuItem.Text = "Make all permanent";
+            this.makePermanentToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.makePermanentToolStripMenuItem.Text = "保存所有";
             this.makePermanentToolStripMenuItem.Click += new System.EventHandler(this.makePermanentToolStripMenuItem_Click);
             // 
             // markCurrentFilterRangeToolStripMenuItem
             // 
             this.markCurrentFilterRangeToolStripMenuItem.Name = "markCurrentFilterRangeToolStripMenuItem";
             this.markCurrentFilterRangeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.markCurrentFilterRangeToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.markCurrentFilterRangeToolStripMenuItem.Text = "Mark current filter range";
+            this.markCurrentFilterRangeToolStripMenuItem.Size = new System.Drawing.Size(251, 22);
+            this.markCurrentFilterRangeToolStripMenuItem.Text = "标记当前过滤器范围";
             this.markCurrentFilterRangeToolStripMenuItem.Click += new System.EventHandler(this.markCurrentFilterRangeToolStripMenuItem_Click);
             // 
             // pluginSeparator
             // 
             this.pluginSeparator.Name = "pluginSeparator";
-            this.pluginSeparator.Size = new System.Drawing.Size(306, 6);
+            this.pluginSeparator.Size = new System.Drawing.Size(248, 6);
             // 
             // timeSpreadingControl1
             // 
@@ -425,7 +425,7 @@ namespace LogExpert
             | System.Windows.Forms.AnchorStyles.Right)));
             this.timeSpreadingControl1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeSpreadingControl1.ForeColor = System.Drawing.Color.Teal;
-            this.timeSpreadingControl1.Location = new System.Drawing.Point(997, 30);
+            this.timeSpreadingControl1.Location = new System.Drawing.Point(998, 30);
             this.timeSpreadingControl1.Margin = new System.Windows.Forms.Padding(2, 0, 1, 0);
             this.timeSpreadingControl1.Name = "timeSpreadingControl1";
             this.timeSpreadingControl1.ReverseAlpha = false;
@@ -681,7 +681,7 @@ namespace LogExpert
             // 
             this.highlightSplitContainer.Panel2.Controls.Add(this.panel3);
             this.highlightSplitContainer.Panel2MinSize = 30;
-            this.highlightSplitContainer.Size = new System.Drawing.Size(981, 180);
+            this.highlightSplitContainer.Size = new System.Drawing.Size(981, 182);
             this.highlightSplitContainer.SplitterDistance = 612;
             this.highlightSplitContainer.TabIndex = 2;
             // 
@@ -714,7 +714,7 @@ namespace LogExpert
             this.filterGridView.ShowCellToolTips = false;
             this.filterGridView.ShowEditingIcon = false;
             this.filterGridView.ShowRowErrors = false;
-            this.filterGridView.Size = new System.Drawing.Size(610, 178);
+            this.filterGridView.Size = new System.Drawing.Size(610, 180);
             this.filterGridView.TabIndex = 1;
             this.filterGridView.VirtualMode = true;
             this.filterGridView.CellContextMenuStripNeeded += new System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler(this.filterGridView_CellContextMenuStripNeeded);
@@ -732,12 +732,12 @@ namespace LogExpert
             this.filterToTabToolStripMenuItem,
             this.markFilterHitsInLogViewToolStripMenuItem});
             this.filterContextMenuStrip.Name = "filterContextMenuStrip";
-            this.filterContextMenuStrip.Size = new System.Drawing.Size(249, 70);
+            this.filterContextMenuStrip.Size = new System.Drawing.Size(275, 70);
             // 
             // setBookmarksOnSelectedLinesToolStripMenuItem
             // 
             this.setBookmarksOnSelectedLinesToolStripMenuItem.Name = "setBookmarksOnSelectedLinesToolStripMenuItem";
-            this.setBookmarksOnSelectedLinesToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
+            this.setBookmarksOnSelectedLinesToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
             this.setBookmarksOnSelectedLinesToolStripMenuItem.Text = "在选择的行上添加书签";
             this.setBookmarksOnSelectedLinesToolStripMenuItem.Click += new System.EventHandler(this.setBookmarksOnSelectedLinesToolStripMenuItem_Click);
             // 
@@ -746,15 +746,15 @@ namespace LogExpert
             this.filterToTabToolStripMenuItem.Name = "filterToTabToolStripMenuItem";
             this.filterToTabToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.T)));
-            this.filterToTabToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
-            this.filterToTabToolStripMenuItem.Text = "Filter to new tab";
+            this.filterToTabToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.filterToTabToolStripMenuItem.Text = "在新标签打开过滤内容";
             this.filterToTabToolStripMenuItem.Click += new System.EventHandler(this.filterToTabToolStripMenuItem_Click);
             // 
             // markFilterHitsInLogViewToolStripMenuItem
             // 
             this.markFilterHitsInLogViewToolStripMenuItem.Name = "markFilterHitsInLogViewToolStripMenuItem";
-            this.markFilterHitsInLogViewToolStripMenuItem.Size = new System.Drawing.Size(248, 22);
-            this.markFilterHitsInLogViewToolStripMenuItem.Text = "Mark filter hits in log view";
+            this.markFilterHitsInLogViewToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.markFilterHitsInLogViewToolStripMenuItem.Text = "在日志窗口中标记";
             this.markFilterHitsInLogViewToolStripMenuItem.Click += new System.EventHandler(this.markFilterHitsInLogViewToolStripMenuItem_Click);
             // 
             // panel3
@@ -769,7 +769,7 @@ namespace LogExpert
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(363, 178);
+            this.panel3.Size = new System.Drawing.Size(363, 180);
             this.panel3.TabIndex = 1;
             // 
             // hideFilterListOnLoadCheckBox
@@ -852,7 +852,7 @@ namespace LogExpert
             this.filterListBox.IntegralHeight = false;
             this.filterListBox.Location = new System.Drawing.Point(3, 3);
             this.filterListBox.Name = "filterListBox";
-            this.filterListBox.Size = new System.Drawing.Size(278, 173);
+            this.filterListBox.Size = new System.Drawing.Size(278, 175);
             this.filterListBox.TabIndex = 0;
             this.helpToolTip.SetToolTip(this.filterListBox, "Doubleclick to load a saved filter");
             this.filterListBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.filterListBox_DrawItem);
@@ -1100,46 +1100,46 @@ namespace LogExpert
             this.filterForSelectionToolStripMenuItem,
             this.setSelectedTextAsBookmarkCommentToolStripMenuItem});
             this.editModeContextMenuStrip.Name = "editModeContextMenuStrip";
-            this.editModeContextMenuStrip.Size = new System.Drawing.Size(371, 114);
+            this.editModeContextMenuStrip.Size = new System.Drawing.Size(242, 114);
             // 
             // copyToolStripMenuItem1
             // 
             this.copyToolStripMenuItem1.Name = "copyToolStripMenuItem1";
             this.copyToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToolStripMenuItem1.Size = new System.Drawing.Size(370, 22);
-            this.copyToolStripMenuItem1.Text = "Copy";
+            this.copyToolStripMenuItem1.Size = new System.Drawing.Size(241, 22);
+            this.copyToolStripMenuItem1.Text = "复制";
             this.copyToolStripMenuItem1.Click += new System.EventHandler(this.copyToolStripMenuItem1_Click);
             // 
             // highlightSelectionInLogFileToolStripMenuItem
             // 
             this.highlightSelectionInLogFileToolStripMenuItem.Name = "highlightSelectionInLogFileToolStripMenuItem";
             this.highlightSelectionInLogFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
-            this.highlightSelectionInLogFileToolStripMenuItem.Size = new System.Drawing.Size(370, 22);
-            this.highlightSelectionInLogFileToolStripMenuItem.Text = "Highlight selection in log file (full line)";
+            this.highlightSelectionInLogFileToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.highlightSelectionInLogFileToolStripMenuItem.Text = "高亮整行";
             this.highlightSelectionInLogFileToolStripMenuItem.Click += new System.EventHandler(this.highlightSelectionInLogFileToolStripMenuItem_Click);
             // 
             // highlightSelectionInLogFilewordModeToolStripMenuItem
             // 
             this.highlightSelectionInLogFilewordModeToolStripMenuItem.Name = "highlightSelectionInLogFilewordModeToolStripMenuItem";
             this.highlightSelectionInLogFilewordModeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.highlightSelectionInLogFilewordModeToolStripMenuItem.Size = new System.Drawing.Size(370, 22);
-            this.highlightSelectionInLogFilewordModeToolStripMenuItem.Text = "Highlight selection in log file (word mode)";
+            this.highlightSelectionInLogFilewordModeToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.highlightSelectionInLogFilewordModeToolStripMenuItem.Text = "高亮已选文字";
             this.highlightSelectionInLogFilewordModeToolStripMenuItem.Click += new System.EventHandler(this.highlightSelectionInLogFilewordModeToolStripMenuItem_Click);
             // 
             // filterForSelectionToolStripMenuItem
             // 
             this.filterForSelectionToolStripMenuItem.Name = "filterForSelectionToolStripMenuItem";
             this.filterForSelectionToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.filterForSelectionToolStripMenuItem.Size = new System.Drawing.Size(370, 22);
-            this.filterForSelectionToolStripMenuItem.Text = "Filter for selection";
+            this.filterForSelectionToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.filterForSelectionToolStripMenuItem.Text = "已选文字加入过滤器";
             this.filterForSelectionToolStripMenuItem.Click += new System.EventHandler(this.filterForSelectionToolStripMenuItem_Click);
             // 
             // setSelectedTextAsBookmarkCommentToolStripMenuItem
             // 
             this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Name = "setSelectedTextAsBookmarkCommentToolStripMenuItem";
             this.setSelectedTextAsBookmarkCommentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Size = new System.Drawing.Size(370, 22);
-            this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Text = "Set selected text as bookmark comment";
+            this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Text = "已选文字作为书签备注";
             this.setSelectedTextAsBookmarkCommentToolStripMenuItem.Click += new System.EventHandler(this.setSelectedTextAsBookmarkCommentToolStripMenuItem_Click);
             // 
             // LogWindow
