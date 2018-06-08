@@ -176,9 +176,9 @@ namespace LogExpert
             this.currentLineLabel,
             this.loadProgessBar,
             this.statusLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 506);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 467);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(962, 23);
+            this.statusStrip1.Size = new System.Drawing.Size(962, 21);
             this.statusStrip1.SizingGrip = false;
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
@@ -191,7 +191,7 @@ namespace LogExpert
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.linesLabel.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.linesLabel.Name = "linesLabel";
-            this.linesLabel.Size = new System.Drawing.Size(90, 18);
+            this.linesLabel.Size = new System.Drawing.Size(90, 16);
             this.linesLabel.Text = "0";
             // 
             // sizeLabel
@@ -202,7 +202,7 @@ namespace LogExpert
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.sizeLabel.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.sizeLabel.Name = "sizeLabel";
-            this.sizeLabel.Size = new System.Drawing.Size(90, 18);
+            this.sizeLabel.Size = new System.Drawing.Size(90, 16);
             this.sizeLabel.Text = "0";
             // 
             // currentLineLabel
@@ -213,19 +213,19 @@ namespace LogExpert
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.currentLineLabel.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this.currentLineLabel.Name = "currentLineLabel";
-            this.currentLineLabel.Size = new System.Drawing.Size(90, 18);
+            this.currentLineLabel.Size = new System.Drawing.Size(90, 16);
             this.currentLineLabel.Text = "L:";
             // 
             // loadProgessBar
             // 
             this.loadProgessBar.Name = "loadProgessBar";
-            this.loadProgessBar.Size = new System.Drawing.Size(50, 17);
+            this.loadProgessBar.Size = new System.Drawing.Size(50, 15);
             // 
             // statusLabel
             // 
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(39, 18);
-            this.statusLabel.Text = "Ready";
+            this.statusLabel.Size = new System.Drawing.Size(32, 16);
+            this.statusLabel.Text = "就绪";
             // 
             // menuStrip1
             // 
@@ -240,9 +240,9 @@ namespace LogExpert
             this.helpToolStripMenuItem,
             this.debugToolStripMenuItem});
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 25);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(962, 23);
+            this.menuStrip1.Size = new System.Drawing.Size(962, 25);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -264,8 +264,8 @@ namespace LogExpert
             this.lastUsedToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(37, 19);
-            this.toolStripMenuItem1.Text = "File";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(44, 21);
+            this.toolStripMenuItem1.Text = "文件";
             this.toolStripMenuItem1.DropDownOpening += new System.EventHandler(this.toolStripMenuItem1_DropDownOpening);
             // 
             // openToolStripMenuItem
@@ -273,16 +273,16 @@ namespace LogExpert
             this.openToolStripMenuItem.Image = global::LogExpert.Properties.Resources.folder_blue;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.openToolStripMenuItem.Text = "Open...";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.openToolStripMenuItem.Text = "打开...";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // openURIToolStripMenuItem
             // 
             this.openURIToolStripMenuItem.Name = "openURIToolStripMenuItem";
             this.openURIToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.openURIToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.openURIToolStripMenuItem.Text = "Open URL...";
+            this.openURIToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.openURIToolStripMenuItem.Text = "打开 URL...";
             this.openURIToolStripMenuItem.ToolTipText = "Opens a file by entering a URL which is supported by a file system plugin";
             this.openURIToolStripMenuItem.Click += new System.EventHandler(this.openURIToolStripMenuItem_Click);
             // 
@@ -290,31 +290,31 @@ namespace LogExpert
             // 
             this.closeFileToolStripMenuItem.Name = "closeFileToolStripMenuItem";
             this.closeFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F4)));
-            this.closeFileToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.closeFileToolStripMenuItem.Text = "Close File";
+            this.closeFileToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.closeFileToolStripMenuItem.Text = "关闭文件";
             this.closeFileToolStripMenuItem.Click += new System.EventHandler(this.closeFileToolStripMenuItem_Click);
             // 
             // reloadToolStripMenuItem
             // 
             this.reloadToolStripMenuItem.Name = "reloadToolStripMenuItem";
             this.reloadToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5;
-            this.reloadToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.reloadToolStripMenuItem.Text = "Reload";
+            this.reloadToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.reloadToolStripMenuItem.Text = "重新加载";
             this.reloadToolStripMenuItem.Click += new System.EventHandler(this.reloadToolStripMenuItem_Click);
             // 
             // newFromClipboardToolStripMenuItem
             // 
             this.newFromClipboardToolStripMenuItem.Name = "newFromClipboardToolStripMenuItem";
             this.newFromClipboardToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newFromClipboardToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.newFromClipboardToolStripMenuItem.Text = "New tab from clipboard";
+            this.newFromClipboardToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.newFromClipboardToolStripMenuItem.Text = "新建标签页";
             this.newFromClipboardToolStripMenuItem.ToolTipText = "Creates a new tab with content from clipboard";
             this.newFromClipboardToolStripMenuItem.Click += new System.EventHandler(this.newFromClipboardToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(242, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(180, 6);
             // 
             // multiFileToolStripMenuItem
             // 
@@ -323,73 +323,73 @@ namespace LogExpert
             this.multiFileEnabledStripMenuItem,
             this.multifileMaskToolStripMenuItem});
             this.multiFileToolStripMenuItem.Name = "multiFileToolStripMenuItem";
-            this.multiFileToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.multiFileToolStripMenuItem.Text = "MultiFile";
+            this.multiFileToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.multiFileToolStripMenuItem.Text = "多文件";
             this.multiFileToolStripMenuItem.ToolTipText = "Treat multiple files as one large file (e.g. data.log, data.log.1, data.log.2,..." +
-                ")";
+    ")";
             this.multiFileToolStripMenuItem.Click += new System.EventHandler(this.multiFileToolStripMenuItem_Click);
             // 
             // multiFileEnabledStripMenuItem
             // 
             this.multiFileEnabledStripMenuItem.CheckOnClick = true;
             this.multiFileEnabledStripMenuItem.Name = "multiFileEnabledStripMenuItem";
-            this.multiFileEnabledStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.multiFileEnabledStripMenuItem.Text = "Enable MultiFile";
+            this.multiFileEnabledStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.multiFileEnabledStripMenuItem.Text = "启用多文件";
             this.multiFileEnabledStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // multifileMaskToolStripMenuItem
             // 
             this.multifileMaskToolStripMenuItem.Name = "multifileMaskToolStripMenuItem";
-            this.multifileMaskToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
+            this.multifileMaskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.multifileMaskToolStripMenuItem.Text = "File name mask...";
             this.multifileMaskToolStripMenuItem.Click += new System.EventHandler(this.multifileMaskToolStripMenuItem_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(242, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(180, 6);
             // 
             // loadProjectToolStripMenuItem
             // 
             this.loadProjectToolStripMenuItem.Name = "loadProjectToolStripMenuItem";
-            this.loadProjectToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.loadProjectToolStripMenuItem.Text = "Load session...";
+            this.loadProjectToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.loadProjectToolStripMenuItem.Text = "加载会话...";
             this.loadProjectToolStripMenuItem.ToolTipText = "Load a saved session (list of log files)";
             this.loadProjectToolStripMenuItem.Click += new System.EventHandler(this.loadProjectToolStripMenuItem_Click);
             // 
             // saveProjectToolStripMenuItem
             // 
             this.saveProjectToolStripMenuItem.Name = "saveProjectToolStripMenuItem";
-            this.saveProjectToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.saveProjectToolStripMenuItem.Text = "Save session...";
+            this.saveProjectToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.saveProjectToolStripMenuItem.Text = "保存会话...";
             this.saveProjectToolStripMenuItem.ToolTipText = "Save a session (all open tabs)";
             this.saveProjectToolStripMenuItem.Click += new System.EventHandler(this.saveProjectToolStripMenuItem_Click);
             // 
             // exportBookmarksToolStripMenuItem
             // 
             this.exportBookmarksToolStripMenuItem.Name = "exportBookmarksToolStripMenuItem";
-            this.exportBookmarksToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.exportBookmarksToolStripMenuItem.Text = "Export bookmarks...";
+            this.exportBookmarksToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.exportBookmarksToolStripMenuItem.Text = "导出书签...";
             this.exportBookmarksToolStripMenuItem.ToolTipText = "Write a list of bookmarks and their comments to a CSV file";
             this.exportBookmarksToolStripMenuItem.Click += new System.EventHandler(this.exportBookmarksToolStripMenuItem_Click);
             // 
             // toolStripSeparator14
             // 
             this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(242, 6);
+            this.toolStripSeparator14.Size = new System.Drawing.Size(180, 6);
             // 
             // lastUsedToolStripMenuItem
             // 
             this.lastUsedToolStripMenuItem.Name = "lastUsedToolStripMenuItem";
-            this.lastUsedToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.lastUsedToolStripMenuItem.Text = "Last used";
+            this.lastUsedToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.lastUsedToolStripMenuItem.Text = "最近使用";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.exitToolStripMenuItem.Text = "退出";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
@@ -408,15 +408,15 @@ namespace LogExpert
             this.toolStripSeparator3,
             this.copyMarkedLinesIntoNewTabToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(96, 19);
-            this.toolStripMenuItem2.Text = "View/Navigate";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(44, 21);
+            this.toolStripMenuItem2.Text = "查看";
             // 
             // goToLineToolStripMenuItem
             // 
             this.goToLineToolStripMenuItem.Name = "goToLineToolStripMenuItem";
             this.goToLineToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
             this.goToLineToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.goToLineToolStripMenuItem.Text = "Go to line...";
+            this.goToLineToolStripMenuItem.Text = "切换到行...";
             this.goToLineToolStripMenuItem.Click += new System.EventHandler(this.goToLineToolStripMenuItem_Click);
             // 
             // searchToolStripMenuItem
@@ -424,7 +424,7 @@ namespace LogExpert
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.searchToolStripMenuItem.Text = "Search...";
+            this.searchToolStripMenuItem.Text = "搜索...";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // filterToolStripMenuItem
@@ -433,7 +433,7 @@ namespace LogExpert
             this.filterToolStripMenuItem.Name = "filterToolStripMenuItem";
             this.filterToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
             this.filterToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.filterToolStripMenuItem.Text = "Filter";
+            this.filterToolStripMenuItem.Text = "过滤";
             this.filterToolStripMenuItem.Click += new System.EventHandler(this.filterToolStripMenuItem_Click);
             // 
             // bookmarksToolStripMenuItem
@@ -445,15 +445,15 @@ namespace LogExpert
             this.showBookmarkListToolStripMenuItem});
             this.bookmarksToolStripMenuItem.Name = "bookmarksToolStripMenuItem";
             this.bookmarksToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.bookmarksToolStripMenuItem.Text = "Bookmarks";
+            this.bookmarksToolStripMenuItem.Text = "书签";
             // 
             // toggleBookmarkToolStripMenuItem
             // 
             this.toggleBookmarkToolStripMenuItem.Image = global::LogExpert.Properties.Resources.check_blue;
             this.toggleBookmarkToolStripMenuItem.Name = "toggleBookmarkToolStripMenuItem";
             this.toggleBookmarkToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F2)));
-            this.toggleBookmarkToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.toggleBookmarkToolStripMenuItem.Text = "Toggle Bookmark";
+            this.toggleBookmarkToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.toggleBookmarkToolStripMenuItem.Text = "添加书签";
             this.toggleBookmarkToolStripMenuItem.Click += new System.EventHandler(this.toggleBookmarkToolStripMenuItem_Click);
             // 
             // jumpToNextToolStripMenuItem
@@ -461,8 +461,8 @@ namespace LogExpert
             this.jumpToNextToolStripMenuItem.Image = global::LogExpert.Properties.Resources.down_blue;
             this.jumpToNextToolStripMenuItem.Name = "jumpToNextToolStripMenuItem";
             this.jumpToNextToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
-            this.jumpToNextToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.jumpToNextToolStripMenuItem.Text = "Jump to next";
+            this.jumpToNextToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.jumpToNextToolStripMenuItem.Text = "跳到下一个";
             this.jumpToNextToolStripMenuItem.Click += new System.EventHandler(this.jumpToNextToolStripMenuItem_Click);
             // 
             // jumpToPrevToolStripMenuItem
@@ -470,16 +470,16 @@ namespace LogExpert
             this.jumpToPrevToolStripMenuItem.Image = global::LogExpert.Properties.Resources.up_blue;
             this.jumpToPrevToolStripMenuItem.Name = "jumpToPrevToolStripMenuItem";
             this.jumpToPrevToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F2)));
-            this.jumpToPrevToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.jumpToPrevToolStripMenuItem.Text = "Jump to prev";
+            this.jumpToPrevToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.jumpToPrevToolStripMenuItem.Text = "跳到上一个";
             this.jumpToPrevToolStripMenuItem.Click += new System.EventHandler(this.jumpToPrevToolStripMenuItem_Click);
             // 
             // showBookmarkListToolStripMenuItem
             // 
             this.showBookmarkListToolStripMenuItem.Name = "showBookmarkListToolStripMenuItem";
             this.showBookmarkListToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
-            this.showBookmarkListToolStripMenuItem.Size = new System.Drawing.Size(245, 22);
-            this.showBookmarkListToolStripMenuItem.Text = "Bookmark list";
+            this.showBookmarkListToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.showBookmarkListToolStripMenuItem.Text = "书签列表";
             this.showBookmarkListToolStripMenuItem.Click += new System.EventHandler(this.showBookmarkListToolStripMenuItem_Click);
             // 
             // columnFinderToolStripMenuItem
@@ -488,7 +488,7 @@ namespace LogExpert
             this.columnFinderToolStripMenuItem.Name = "columnFinderToolStripMenuItem";
             this.columnFinderToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F8;
             this.columnFinderToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.columnFinderToolStripMenuItem.Text = "Column finder";
+            this.columnFinderToolStripMenuItem.Text = "查找列";
             this.columnFinderToolStripMenuItem.Click += new System.EventHandler(this.columnFinderToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -506,12 +506,12 @@ namespace LogExpert
             this.uTF16ToolStripMenuItem});
             this.encodingToolStripMenuItem.Name = "encodingToolStripMenuItem";
             this.encodingToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.encodingToolStripMenuItem.Text = "Encoding";
+            this.encodingToolStripMenuItem.Text = "编码";
             // 
             // aSCIIToolStripMenuItem
             // 
             this.aSCIIToolStripMenuItem.Name = "aSCIIToolStripMenuItem";
-            this.aSCIIToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.aSCIIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aSCIIToolStripMenuItem.Tag = "";
             this.aSCIIToolStripMenuItem.Text = "ASCII";
             this.aSCIIToolStripMenuItem.Click += new System.EventHandler(this.aSCIIToolStripMenuItem_Click);
@@ -519,7 +519,7 @@ namespace LogExpert
             // aNSIToolStripMenuItem
             // 
             this.aNSIToolStripMenuItem.Name = "aNSIToolStripMenuItem";
-            this.aNSIToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.aNSIToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aNSIToolStripMenuItem.Tag = "";
             this.aNSIToolStripMenuItem.Text = "ANSI";
             this.aNSIToolStripMenuItem.Click += new System.EventHandler(this.aNSIToolStripMenuItem_Click);
@@ -527,21 +527,21 @@ namespace LogExpert
             // iSO88591ToolStripMenuItem
             // 
             this.iSO88591ToolStripMenuItem.Name = "iSO88591ToolStripMenuItem";
-            this.iSO88591ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.iSO88591ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.iSO88591ToolStripMenuItem.Text = "ISO-8859-1";
             this.iSO88591ToolStripMenuItem.Click += new System.EventHandler(this.iSO88591ToolStripMenuItem_Click);
             // 
             // uTF8ToolStripMenuItem
             // 
             this.uTF8ToolStripMenuItem.Name = "uTF8ToolStripMenuItem";
-            this.uTF8ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.uTF8ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.uTF8ToolStripMenuItem.Text = "UTF8";
             this.uTF8ToolStripMenuItem.Click += new System.EventHandler(this.uTF8ToolStripMenuItem_Click);
             // 
             // uTF16ToolStripMenuItem
             // 
             this.uTF16ToolStripMenuItem.Name = "uTF16ToolStripMenuItem";
-            this.uTF16ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.uTF16ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.uTF16ToolStripMenuItem.Text = "Unicode";
             this.uTF16ToolStripMenuItem.Click += new System.EventHandler(this.uTF16ToolStripMenuItem_Click);
             // 
@@ -579,7 +579,7 @@ namespace LogExpert
             this.copyMarkedLinesIntoNewTabToolStripMenuItem.Name = "copyMarkedLinesIntoNewTabToolStripMenuItem";
             this.copyMarkedLinesIntoNewTabToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
             this.copyMarkedLinesIntoNewTabToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
-            this.copyMarkedLinesIntoNewTabToolStripMenuItem.Text = "Copy to Tab";
+            this.copyMarkedLinesIntoNewTabToolStripMenuItem.Text = "复制到 Tab";
             this.copyMarkedLinesIntoNewTabToolStripMenuItem.ToolTipText = "Copies all selected lines into a new tab page";
             this.copyMarkedLinesIntoNewTabToolStripMenuItem.Click += new System.EventHandler(this.copyMarkedLinesIntoNewTabToolStripMenuItem_Click);
             // 
@@ -596,43 +596,43 @@ namespace LogExpert
             this.toolStripSeparator19,
             this.lockInstanceToolStripMenuItem});
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
-            this.optionToolStripMenuItem.Size = new System.Drawing.Size(61, 19);
-            this.optionToolStripMenuItem.Text = "Options";
+            this.optionToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.optionToolStripMenuItem.Text = "选项";
             this.optionToolStripMenuItem.DropDownOpening += new System.EventHandler(this.optionToolStripMenuItem_DropDownOpening);
             // 
             // columnizerToolStripMenuItem
             // 
             this.columnizerToolStripMenuItem.Name = "columnizerToolStripMenuItem";
-            this.columnizerToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.columnizerToolStripMenuItem.Text = "Columnizer...";
+            this.columnizerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.columnizerToolStripMenuItem.Text = "列...";
             this.columnizerToolStripMenuItem.ToolTipText = "Splits various kinds of logfiles into fixed columns";
             this.columnizerToolStripMenuItem.Click += new System.EventHandler(this.selectFilterToolStripMenuItem_Click);
             // 
             // hilightingToolStripMenuItem1
             // 
             this.hilightingToolStripMenuItem1.Name = "hilightingToolStripMenuItem1";
-            this.hilightingToolStripMenuItem1.Size = new System.Drawing.Size(202, 22);
-            this.hilightingToolStripMenuItem1.Text = "Highlighting and triggers...";
+            this.hilightingToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.hilightingToolStripMenuItem1.Text = "高亮...";
             this.hilightingToolStripMenuItem1.Click += new System.EventHandler(this.hilightingToolStripMenuItem_Click);
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.settingsToolStripMenuItem.Text = "Settings...";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.settingsToolStripMenuItem.Text = "设置...";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(199, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
             // cellSelectModeToolStripMenuItem
             // 
             this.cellSelectModeToolStripMenuItem.CheckOnClick = true;
             this.cellSelectModeToolStripMenuItem.Name = "cellSelectModeToolStripMenuItem";
-            this.cellSelectModeToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.cellSelectModeToolStripMenuItem.Text = "Cell select mode";
+            this.cellSelectModeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cellSelectModeToolStripMenuItem.Text = "单元格选择模式";
             this.cellSelectModeToolStripMenuItem.ToolTipText = "Switches between foll row selection and single cell selection mode";
             this.cellSelectModeToolStripMenuItem.Click += new System.EventHandler(this.cellSelectModeToolStripMenuItem_Click);
             // 
@@ -640,28 +640,28 @@ namespace LogExpert
             // 
             this.alwaysOnTopToolStripMenuItem.CheckOnClick = true;
             this.alwaysOnTopToolStripMenuItem.Name = "alwaysOnTopToolStripMenuItem";
-            this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.alwaysOnTopToolStripMenuItem.Text = "Always on top";
+            this.alwaysOnTopToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alwaysOnTopToolStripMenuItem.Text = "保持置顶";
             this.alwaysOnTopToolStripMenuItem.Click += new System.EventHandler(this.alwaysOnTopToolStripMenuItem_Click);
             // 
             // hideLineColumnToolStripMenuItem
             // 
             this.hideLineColumnToolStripMenuItem.CheckOnClick = true;
             this.hideLineColumnToolStripMenuItem.Name = "hideLineColumnToolStripMenuItem";
-            this.hideLineColumnToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.hideLineColumnToolStripMenuItem.Text = "Hide line column";
+            this.hideLineColumnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hideLineColumnToolStripMenuItem.Text = "隐藏行号";
             this.hideLineColumnToolStripMenuItem.Click += new System.EventHandler(this.hideLineColumnToolStripMenuItem_Click);
             // 
             // toolStripSeparator19
             // 
             this.toolStripSeparator19.Name = "toolStripSeparator19";
-            this.toolStripSeparator19.Size = new System.Drawing.Size(199, 6);
+            this.toolStripSeparator19.Size = new System.Drawing.Size(177, 6);
             // 
             // lockInstanceToolStripMenuItem
             // 
             this.lockInstanceToolStripMenuItem.Name = "lockInstanceToolStripMenuItem";
-            this.lockInstanceToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.lockInstanceToolStripMenuItem.Text = "Lock instance";
+            this.lockInstanceToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.lockInstanceToolStripMenuItem.Text = "锁定当前实例";
             this.lockInstanceToolStripMenuItem.ToolTipText = "When enabled all new launched LogExpert instances will redirect to this window";
             this.lockInstanceToolStripMenuItem.Click += new System.EventHandler(this.lockInstanceToolStripMenuItem_Click);
             // 
@@ -671,22 +671,22 @@ namespace LogExpert
             this.configureToolStripMenuItem,
             this.configureToolStripSeparator});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(48, 19);
-            this.toolsToolStripMenuItem.Text = "Tools";
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.toolsToolStripMenuItem.Text = "工具";
             this.toolsToolStripMenuItem.ToolTipText = "Launch external tools (configure in the settings)";
             this.toolsToolStripMenuItem.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolsToolStripMenuItem_DropDownItemClicked);
             // 
             // configureToolStripMenuItem
             // 
             this.configureToolStripMenuItem.Name = "configureToolStripMenuItem";
-            this.configureToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.configureToolStripMenuItem.Text = "Configure...";
+            this.configureToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.configureToolStripMenuItem.Text = "配置...";
             this.configureToolStripMenuItem.Click += new System.EventHandler(this.configureToolStripMenuItem_Click);
             // 
             // configureToolStripSeparator
             // 
             this.configureToolStripSeparator.Name = "configureToolStripSeparator";
-            this.configureToolStripSeparator.Size = new System.Drawing.Size(133, 6);
+            this.configureToolStripSeparator.Size = new System.Drawing.Size(177, 6);
             // 
             // helpToolStripMenuItem
             // 
@@ -695,26 +695,26 @@ namespace LogExpert
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 19);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.helpToolStripMenuItem.Text = "帮助";
             // 
             // showHelpToolStripMenuItem
             // 
             this.showHelpToolStripMenuItem.Name = "showHelpToolStripMenuItem";
             this.showHelpToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.showHelpToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.showHelpToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.showHelpToolStripMenuItem.Text = "Show help";
             this.showHelpToolStripMenuItem.Click += new System.EventHandler(this.showHelpToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(145, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -734,67 +734,67 @@ namespace LogExpert
             this.loglevelToolStripMenuItem,
             this.disableWordHighlightModeToolStripMenuItem});
             this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
-            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 19);
+            this.debugToolStripMenuItem.Size = new System.Drawing.Size(59, 21);
             this.debugToolStripMenuItem.Text = "Debug";
             // 
             // dumpLogBufferInfoToolStripMenuItem
             // 
             this.dumpLogBufferInfoToolStripMenuItem.Name = "dumpLogBufferInfoToolStripMenuItem";
-            this.dumpLogBufferInfoToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.dumpLogBufferInfoToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.dumpLogBufferInfoToolStripMenuItem.Text = "Dump LogBuffer info";
             this.dumpLogBufferInfoToolStripMenuItem.Click += new System.EventHandler(this.dumpLogBufferInfoToolStripMenuItem_Click);
             // 
             // dumpBufferDiagnosticToolStripMenuItem
             // 
             this.dumpBufferDiagnosticToolStripMenuItem.Name = "dumpBufferDiagnosticToolStripMenuItem";
-            this.dumpBufferDiagnosticToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.dumpBufferDiagnosticToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.dumpBufferDiagnosticToolStripMenuItem.Text = "Dump buffer diagnostic";
             this.dumpBufferDiagnosticToolStripMenuItem.Click += new System.EventHandler(this.dumpBufferDiagnosticToolStripMenuItem_Click);
             // 
             // runGCToolStripMenuItem
             // 
             this.runGCToolStripMenuItem.Name = "runGCToolStripMenuItem";
-            this.runGCToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.runGCToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.runGCToolStripMenuItem.Text = "Run GC";
             this.runGCToolStripMenuItem.Click += new System.EventHandler(this.runGCToolStripMenuItem_Click);
             // 
             // gCInfoToolStripMenuItem
             // 
             this.gCInfoToolStripMenuItem.Name = "gCInfoToolStripMenuItem";
-            this.gCInfoToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.gCInfoToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.gCInfoToolStripMenuItem.Text = "Dump GC info";
             this.gCInfoToolStripMenuItem.Click += new System.EventHandler(this.gCInfoToolStripMenuItem_Click);
             // 
             // toolStripSeparator18
             // 
             this.toolStripSeparator18.Name = "toolStripSeparator18";
-            this.toolStripSeparator18.Size = new System.Drawing.Size(271, 6);
+            this.toolStripSeparator18.Size = new System.Drawing.Size(294, 6);
             // 
             // throwExceptionGUIThreadToolStripMenuItem
             // 
             this.throwExceptionGUIThreadToolStripMenuItem.Name = "throwExceptionGUIThreadToolStripMenuItem";
-            this.throwExceptionGUIThreadToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.throwExceptionGUIThreadToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.throwExceptionGUIThreadToolStripMenuItem.Text = "Throw exception (GUI Thread)";
             this.throwExceptionGUIThreadToolStripMenuItem.Click += new System.EventHandler(this.throwExceptionGUIThreadToolStripMenuItem_Click);
             // 
             // throwExceptionbackgroundThToolStripMenuItem
             // 
             this.throwExceptionbackgroundThToolStripMenuItem.Name = "throwExceptionbackgroundThToolStripMenuItem";
-            this.throwExceptionbackgroundThToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.throwExceptionbackgroundThToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.throwExceptionbackgroundThToolStripMenuItem.Text = "Throw exception (Async delegate)";
             this.throwExceptionbackgroundThToolStripMenuItem.Click += new System.EventHandler(this.throwExceptionbackgroundThToolStripMenuItem_Click);
             // 
             // throwExceptionbackgroundThreadToolStripMenuItem
             // 
             this.throwExceptionbackgroundThreadToolStripMenuItem.Name = "throwExceptionbackgroundThreadToolStripMenuItem";
-            this.throwExceptionbackgroundThreadToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.throwExceptionbackgroundThreadToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.throwExceptionbackgroundThreadToolStripMenuItem.Text = "Throw exception (background thread)";
             this.throwExceptionbackgroundThreadToolStripMenuItem.Click += new System.EventHandler(this.throwExceptionbackgroundThreadToolStripMenuItem_Click);
             // 
             // toolStripSeparator12
             // 
             this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(271, 6);
+            this.toolStripSeparator12.Size = new System.Drawing.Size(294, 6);
             // 
             // loglevelToolStripMenuItem
             // 
@@ -803,7 +803,7 @@ namespace LogExpert
             this.infoToolStripMenuItem,
             this.debugToolStripMenuItem1});
             this.loglevelToolStripMenuItem.Name = "loglevelToolStripMenuItem";
-            this.loglevelToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.loglevelToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.loglevelToolStripMenuItem.Text = "Loglevel";
             this.loglevelToolStripMenuItem.DropDownOpening += new System.EventHandler(this.loglevelToolStripMenuItem_DropDownOpening);
             this.loglevelToolStripMenuItem.Click += new System.EventHandler(this.loglevelToolStripMenuItem_Click);
@@ -811,21 +811,21 @@ namespace LogExpert
             // warnToolStripMenuItem
             // 
             this.warnToolStripMenuItem.Name = "warnToolStripMenuItem";
-            this.warnToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.warnToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.warnToolStripMenuItem.Text = "Warn";
             this.warnToolStripMenuItem.Click += new System.EventHandler(this.warnToolStripMenuItem_Click);
             // 
             // infoToolStripMenuItem
             // 
             this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.infoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.infoToolStripMenuItem.Text = "Info";
             this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
             // 
             // debugToolStripMenuItem1
             // 
             this.debugToolStripMenuItem1.Name = "debugToolStripMenuItem1";
-            this.debugToolStripMenuItem1.Size = new System.Drawing.Size(109, 22);
+            this.debugToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.debugToolStripMenuItem1.Text = "Debug";
             this.debugToolStripMenuItem1.Click += new System.EventHandler(this.debugToolStripMenuItem1_Click);
             // 
@@ -833,7 +833,7 @@ namespace LogExpert
             // 
             this.disableWordHighlightModeToolStripMenuItem.CheckOnClick = true;
             this.disableWordHighlightModeToolStripMenuItem.Name = "disableWordHighlightModeToolStripMenuItem";
-            this.disableWordHighlightModeToolStripMenuItem.Size = new System.Drawing.Size(274, 22);
+            this.disableWordHighlightModeToolStripMenuItem.Size = new System.Drawing.Size(297, 22);
             this.disableWordHighlightModeToolStripMenuItem.Text = "Disable word highlight mode";
             this.disableWordHighlightModeToolStripMenuItem.Click += new System.EventHandler(this.disableWordHighlightModeToolStripMenuItem_Click);
             // 
@@ -862,7 +862,7 @@ namespace LogExpert
             this.toolStripContainer1.ContentPanel.BackColor = System.Drawing.SystemColors.Control;
             this.toolStripContainer1.ContentPanel.Controls.Add(this.dockPanel);
             this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(962, 460);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(962, 417);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             // 
             // toolStripContainer1.LeftToolStripPanel
@@ -877,7 +877,7 @@ namespace LogExpert
             // 
             this.toolStripContainer1.RightToolStripPanel.Enabled = false;
             this.toolStripContainer1.RightToolStripPanelVisible = false;
-            this.toolStripContainer1.Size = new System.Drawing.Size(962, 506);
+            this.toolStripContainer1.Size = new System.Drawing.Size(962, 467);
             this.toolStripContainer1.TabIndex = 13;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
@@ -900,7 +900,7 @@ namespace LogExpert
             this.dockPanel.Margin = new System.Windows.Forms.Padding(0);
             this.dockPanel.Name = "dockPanel";
             this.dockPanel.ShowDocumentIcon = true;
-            this.dockPanel.Size = new System.Drawing.Size(962, 460);
+            this.dockPanel.Size = new System.Drawing.Size(962, 417);
             dockPanelGradient1.EndColor = System.Drawing.SystemColors.ControlLight;
             dockPanelGradient1.StartColor = System.Drawing.SystemColors.ControlLight;
             autoHideStripSkin1.DockStripGradient = dockPanelGradient1;
@@ -971,9 +971,9 @@ namespace LogExpert
             this.toolStripSeparator17,
             this.highlightGroupsComboBox});
             this.toolStrip4.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.toolStrip4.Location = new System.Drawing.Point(3, 23);
+            this.toolStrip4.Location = new System.Drawing.Point(3, 0);
             this.toolStrip4.Name = "toolStrip4";
-            this.toolStrip4.Size = new System.Drawing.Size(371, 23);
+            this.toolStrip4.Size = new System.Drawing.Size(373, 25);
             this.toolStrip4.TabIndex = 7;
             // 
             // toolStripButtonOpen
@@ -985,7 +985,7 @@ namespace LogExpert
             this.toolStripButtonOpen.Name = "toolStripButtonOpen";
             this.toolStripButtonOpen.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonOpen.Text = "toolStripButton1";
-            this.toolStripButtonOpen.ToolTipText = "Open file";
+            this.toolStripButtonOpen.ToolTipText = "打开文件";
             this.toolStripButtonOpen.Click += new System.EventHandler(this.toolStripButtonOpen_Click);
             // 
             // toolStripSeparator10
@@ -1002,7 +1002,7 @@ namespace LogExpert
             this.toolStripButtonSearch.Name = "toolStripButtonSearch";
             this.toolStripButtonSearch.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonSearch.Text = "toolStripButtonSearch";
-            this.toolStripButtonSearch.ToolTipText = "Search";
+            this.toolStripButtonSearch.ToolTipText = "查找";
             this.toolStripButtonSearch.Click += new System.EventHandler(this.toolStripButtonSearch_Click);
             // 
             // toolStripButtonFilter
@@ -1014,7 +1014,7 @@ namespace LogExpert
             this.toolStripButtonFilter.Name = "toolStripButtonFilter";
             this.toolStripButtonFilter.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonFilter.Text = "toolStripButton1";
-            this.toolStripButtonFilter.ToolTipText = "Filter window";
+            this.toolStripButtonFilter.ToolTipText = "过滤窗口";
             this.toolStripButtonFilter.Click += new System.EventHandler(this.toolStripButtonFilter_Click);
             // 
             // toolStripSeparator11
@@ -1031,7 +1031,7 @@ namespace LogExpert
             this.toolStripButtonBookmark.Name = "toolStripButtonBookmark";
             this.toolStripButtonBookmark.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonBookmark.Text = "toolStripButton1";
-            this.toolStripButtonBookmark.ToolTipText = "Toggle bookmark";
+            this.toolStripButtonBookmark.ToolTipText = "添加书签";
             this.toolStripButtonBookmark.Click += new System.EventHandler(this.toolStripButtonBookmark_Click);
             // 
             // toolStripButtonUp
@@ -1043,7 +1043,7 @@ namespace LogExpert
             this.toolStripButtonUp.Name = "toolStripButtonUp";
             this.toolStripButtonUp.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonUp.Text = "toolStripButton1";
-            this.toolStripButtonUp.ToolTipText = "Go to previous bookmark";
+            this.toolStripButtonUp.ToolTipText = "上一个书签";
             this.toolStripButtonUp.Click += new System.EventHandler(this.toolStripButtonUp_Click);
             // 
             // toolStripButtonDown
@@ -1055,7 +1055,7 @@ namespace LogExpert
             this.toolStripButtonDown.Name = "toolStripButtonDown";
             this.toolStripButtonDown.Size = new System.Drawing.Size(23, 18);
             this.toolStripButtonDown.Text = "toolStripButton1";
-            this.toolStripButtonDown.ToolTipText = "Go to next bookmark";
+            this.toolStripButtonDown.ToolTipText = "下一个书签";
             this.toolStripButtonDown.Click += new System.EventHandler(this.toolStripButtonDown_Click);
             // 
             // toolStripSeparator1
@@ -1073,6 +1073,7 @@ namespace LogExpert
             this.toolStripButtonBubbles.Name = "toolStripButtonBubbles";
             this.toolStripButtonBubbles.Size = new System.Drawing.Size(23, 20);
             this.toolStripButtonBubbles.Text = "Show bookmark bubbles";
+            this.toolStripButtonBubbles.ToolTipText = "显示书签气泡";
             this.toolStripButtonBubbles.Click += new System.EventHandler(this.toolStripButtonBubbles_Click);
             // 
             // toolStripSeparator15
@@ -1086,7 +1087,7 @@ namespace LogExpert
             this.toolStripButtonTail.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonTail.Image")));
             this.toolStripButtonTail.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonTail.Name = "toolStripButtonTail";
-            this.toolStripButtonTail.Size = new System.Drawing.Size(27, 19);
+            this.toolStripButtonTail.Size = new System.Drawing.Size(29, 21);
             this.toolStripButtonTail.Text = "tail";
             // 
             // toolStripSeparator17
@@ -1100,11 +1101,11 @@ namespace LogExpert
             this.highlightGroupsComboBox.DropDownWidth = 250;
             this.highlightGroupsComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
             this.highlightGroupsComboBox.Name = "highlightGroupsComboBox";
-            this.highlightGroupsComboBox.Size = new System.Drawing.Size(150, 23);
+            this.highlightGroupsComboBox.Size = new System.Drawing.Size(150, 25);
             this.highlightGroupsComboBox.ToolTipText = "Select the current highlight settings for the log file (right-click to open highl" +
-                "ight settings)";
-            this.highlightGroupsComboBox.SelectedIndexChanged += new System.EventHandler(this.highlightGroupsComboBox_SelectedIndexChanged);
+    "ight settings)";
             this.highlightGroupsComboBox.DropDownClosed += new System.EventHandler(this.highlightGroupsComboBox_DropDownClosed);
+            this.highlightGroupsComboBox.SelectedIndexChanged += new System.EventHandler(this.highlightGroupsComboBox_SelectedIndexChanged);
             this.highlightGroupsComboBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.highlightGroupsComboBox_MouseUp);
             // 
             // externalToolsToolStrip
@@ -1113,7 +1114,7 @@ namespace LogExpert
             this.externalToolsToolStrip.BackColor = System.Drawing.SystemColors.ControlLight;
             this.externalToolsToolStrip.Dock = System.Windows.Forms.DockStyle.None;
             this.externalToolsToolStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.externalToolsToolStrip.Location = new System.Drawing.Point(378, 23);
+            this.externalToolsToolStrip.Location = new System.Drawing.Point(149, 50);
             this.externalToolsToolStrip.Name = "externalToolsToolStrip";
             this.externalToolsToolStrip.Size = new System.Drawing.Size(1, 0);
             this.externalToolsToolStrip.TabIndex = 8;
@@ -1127,11 +1128,11 @@ namespace LogExpert
             // followTailCheckBox
             // 
             this.followTailCheckBox.AutoSize = true;
-            this.followTailCheckBox.Location = new System.Drawing.Point(397, 512);
+            this.followTailCheckBox.Location = new System.Drawing.Point(397, 473);
             this.followTailCheckBox.Name = "followTailCheckBox";
-            this.followTailCheckBox.Size = new System.Drawing.Size(72, 17);
+            this.followTailCheckBox.Size = new System.Drawing.Size(72, 16);
             this.followTailCheckBox.TabIndex = 14;
-            this.followTailCheckBox.Text = "Follow tail";
+            this.followTailCheckBox.Text = "跟随末尾";
             this.followTailCheckBox.UseVisualStyleBackColor = true;
             this.followTailCheckBox.Click += new System.EventHandler(this.followTailCheckBox_Click);
             // 
@@ -1148,70 +1149,70 @@ namespace LogExpert
             this.copyPathToClipboardToolStripMenuItem,
             this.findInExplorerToolStripMenuItem});
             this.tabContextMenuStrip.Name = "tabContextMenuStrip";
-            this.tabContextMenuStrip.Size = new System.Drawing.Size(197, 170);
+            this.tabContextMenuStrip.Size = new System.Drawing.Size(185, 170);
             // 
             // closeThisTabToolStripMenuItem
             // 
             this.closeThisTabToolStripMenuItem.Name = "closeThisTabToolStripMenuItem";
-            this.closeThisTabToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.closeThisTabToolStripMenuItem.Text = "Close this tab";
+            this.closeThisTabToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.closeThisTabToolStripMenuItem.Text = "关闭此标签页";
             this.closeThisTabToolStripMenuItem.Click += new System.EventHandler(this.closeThisTabToolStripMenuItem_Click);
             // 
             // closeOtherTabsToolStripMenuItem
             // 
             this.closeOtherTabsToolStripMenuItem.Name = "closeOtherTabsToolStripMenuItem";
-            this.closeOtherTabsToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.closeOtherTabsToolStripMenuItem.Text = "Close other tabs";
+            this.closeOtherTabsToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.closeOtherTabsToolStripMenuItem.Text = "关闭其他标签页";
             this.closeOtherTabsToolStripMenuItem.ToolTipText = "Close all tabs except of this one";
             this.closeOtherTabsToolStripMenuItem.Click += new System.EventHandler(this.closeOtherTabsToolStripMenuItem_Click);
             // 
             // closeAllTabsToolStripMenuItem
             // 
             this.closeAllTabsToolStripMenuItem.Name = "closeAllTabsToolStripMenuItem";
-            this.closeAllTabsToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.closeAllTabsToolStripMenuItem.Text = "Close all tabs";
+            this.closeAllTabsToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.closeAllTabsToolStripMenuItem.Text = "关闭所有标签页";
             this.closeAllTabsToolStripMenuItem.ToolTipText = "Close all tabs";
             this.closeAllTabsToolStripMenuItem.Click += new System.EventHandler(this.closeAllTabsToolStripMenuItem_Click);
             // 
             // toolStripSeparator13
             // 
             this.toolStripSeparator13.Name = "toolStripSeparator13";
-            this.toolStripSeparator13.Size = new System.Drawing.Size(193, 6);
+            this.toolStripSeparator13.Size = new System.Drawing.Size(181, 6);
             // 
             // tabColorToolStripMenuItem
             // 
             this.tabColorToolStripMenuItem.Name = "tabColorToolStripMenuItem";
-            this.tabColorToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.tabColorToolStripMenuItem.Text = "Tab color...";
+            this.tabColorToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.tabColorToolStripMenuItem.Text = "标签页颜色...";
             this.tabColorToolStripMenuItem.ToolTipText = "Sets the tab color";
             this.tabColorToolStripMenuItem.Click += new System.EventHandler(this.tabColorToolStripMenuItem_Click);
             // 
             // tabRenameToolStripMenuItem
             // 
             this.tabRenameToolStripMenuItem.Name = "tabRenameToolStripMenuItem";
-            this.tabRenameToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.tabRenameToolStripMenuItem.Text = "Tab rename...";
+            this.tabRenameToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.tabRenameToolStripMenuItem.Text = "Tab 重命名...";
             this.tabRenameToolStripMenuItem.ToolTipText = "Set the text which is shown on the tab";
             this.tabRenameToolStripMenuItem.Click += new System.EventHandler(this.tabRenameToolStripMenuItem_Click);
             // 
             // toolStripSeparator16
             // 
             this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(193, 6);
+            this.toolStripSeparator16.Size = new System.Drawing.Size(181, 6);
             // 
             // copyPathToClipboardToolStripMenuItem
             // 
             this.copyPathToClipboardToolStripMenuItem.Name = "copyPathToClipboardToolStripMenuItem";
-            this.copyPathToClipboardToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.copyPathToClipboardToolStripMenuItem.Text = "Copy path to clipboard";
+            this.copyPathToClipboardToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.copyPathToClipboardToolStripMenuItem.Text = "复制路径到剪切板";
             this.copyPathToClipboardToolStripMenuItem.ToolTipText = "The complete file name (incl. path) is copied to clipboard";
             this.copyPathToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copyPathToClipboardToolStripMenuItem_Click);
             // 
             // findInExplorerToolStripMenuItem
             // 
             this.findInExplorerToolStripMenuItem.Name = "findInExplorerToolStripMenuItem";
-            this.findInExplorerToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
-            this.findInExplorerToolStripMenuItem.Text = "Find in Explorer";
+            this.findInExplorerToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.findInExplorerToolStripMenuItem.Text = "在资源管理器中打开";
             this.findInExplorerToolStripMenuItem.ToolTipText = "Opens an Explorer window and selects the log file";
             this.findInExplorerToolStripMenuItem.Click += new System.EventHandler(this.findInExplorerToolStripMenuItem_Click);
             // 
@@ -1223,22 +1224,22 @@ namespace LogExpert
             this.dateTimeDragControl.DragOrientation = LogExpert.Dialogs.DateTimeDragControl.DragOrientations.Vertical;
             this.dateTimeDragControl.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimeDragControl.HoverColor = System.Drawing.Color.LightGray;
-            this.dateTimeDragControl.Location = new System.Drawing.Point(611, 508);
+            this.dateTimeDragControl.Location = new System.Drawing.Point(611, 469);
             this.dateTimeDragControl.Margin = new System.Windows.Forms.Padding(0);
             this.dateTimeDragControl.MaxDateTime = new System.DateTime(9999, 12, 31, 23, 59, 59, 999);
             this.dateTimeDragControl.MinDateTime = new System.DateTime(((long)(0)));
             this.dateTimeDragControl.Name = "dateTimeDragControl";
-            this.dateTimeDragControl.Size = new System.Drawing.Size(188, 20);
+            this.dateTimeDragControl.Size = new System.Drawing.Size(188, 18);
             this.dateTimeDragControl.TabIndex = 14;
-            this.dateTimeDragControl.ValueDragged += new LogExpert.Dialogs.DateTimeDragControl.ValueDraggedEventHandler(this.dateTimeDragControl_ValueDragged);
             this.dateTimeDragControl.ValueChanged += new LogExpert.Dialogs.DateTimeDragControl.ValueChangedEventHandler(this.dateTimeDragControl_ValueChanged);
+            this.dateTimeDragControl.ValueDragged += new LogExpert.Dialogs.DateTimeDragControl.ValueDraggedEventHandler(this.dateTimeDragControl_ValueDragged);
             // 
             // LogTabWindow
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 529);
+            this.ClientSize = new System.Drawing.Size(962, 488);
             this.Controls.Add(this.followTailCheckBox);
             this.Controls.Add(this.dateTimeDragControl);
             this.Controls.Add(this.toolStripContainer1);
@@ -1249,13 +1250,13 @@ namespace LogExpert
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LogTabWindow";
             this.Text = "LogExpert";
+            this.Activated += new System.EventHandler(this.LogTabWindow_Activated);
             this.Deactivate += new System.EventHandler(this.LogTabWindow_Deactivate);
             this.SizeChanged += new System.EventHandler(this.LogTabWindow_SizeChanged);
-            this.Activated += new System.EventHandler(this.LogTabWindow_Activated);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.LogWindow_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.LogTabWindow_DragEnter);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LogTabWindow_KeyDown);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.LogWindow_DragOver);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LogTabWindow_KeyDown);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
